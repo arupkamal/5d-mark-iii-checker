@@ -42,6 +42,10 @@ python3 camera_check.py --watch            # print when the camera connects / di
 - The camera sends most live view frames with a corrupted 32-byte JPEG header; the app repairs them using the header of a good frame.
 - Upload settings are stored in `~/Library/Application Support/5D Mark III Checker/uploads.json`; the S3 secret key and FTP password are stored in the macOS Keychain.
 
+## Technical documentation
+
+See [docs/TECHNICAL.md](docs/TECHNICAL.md) for the architecture, threading model, camera protocol details and quirks, the focus peaking and sharpness algorithms, the upload subsystem, testing, troubleshooting and how to extend the app.
+
 ## Files
 
 | File | What it does |
