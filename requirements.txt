@@ -1,0 +1,7 @@
+gphoto2==2.6.4
+pillow==13.0.0
+numpy==2.5.5
+boto3==1.44.4
+google-cloud-storage==3.17.1
+keyring==25.7.0
+certifi==2026.10.23
