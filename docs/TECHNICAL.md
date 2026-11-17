@@ -647,7 +647,7 @@ sequenceDiagram
         U->>D: upload each file
         D-->>U: OK / exception
     end
-    U-->>UI: "Upload of IMG_…: Amazon S3 OK; Google Cloud Storage OK; FTP failed (…)"
+    U-->>UI: Summary, e.g. Upload of IMG_… - Amazon S3 OK, Google Cloud Storage OK, FTP failed (…)
 ```
 
 - Jobs are processed one at a time, in order. Destinations are uploaded sequentially: S3, then GCS, then FTP.
